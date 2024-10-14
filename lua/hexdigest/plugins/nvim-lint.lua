@@ -6,6 +6,7 @@ return {
       c = { "cpplint" },
       cpp = { "cpplint" },
       php = { "phpcs" },
+      java = { "checkstyle" },
     }
 
     vim.api.nvim_create_autocmd({ "BufEnter", "BufWritePost", "InsertLeave" }, {
