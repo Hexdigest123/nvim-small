@@ -3,8 +3,6 @@ return {
   config = function()
     require("lint").linters_by_ft = {
       python = { "pylint" },
-      c = { "cpplint" },
-      cpp = { "cpplint" },
       php = { "phpcs" },
       java = { "checkstyle" },
     }
