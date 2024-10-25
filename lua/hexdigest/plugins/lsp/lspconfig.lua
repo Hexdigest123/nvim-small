@@ -70,6 +70,12 @@ return {
           capabilities = capabilities,
         })
       end,
+      ["texlab"] = function()
+        nvim_lsp["texlab"].setup({
+          on_attach = on_attach,
+          capabilities = capabilities,
+        })
+      end,
       ["ts_ls"] = function()
         nvim_lsp["ts_ls"].setup({
           on_attach = on_attach,
