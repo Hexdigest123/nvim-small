@@ -64,14 +64,20 @@ return {
           capabilities = capabilities,
         })
       end,
+      ["texlab"] = function()
+        nvim_lsp["texlab"].setup({
+          on_attach = on_attach,
+          capabilities = capabilities,
+        })
+      end,
       ["jdtls"] = function()
         nvim_lsp["jdtls"].setup({
           on_attach = on_attach,
           capabilities = capabilities,
         })
       end,
-      ["texlab"] = function()
-        nvim_lsp["texlab"].setup({
+      ["tailwindcss"] = function()
+        nvim_lsp["tailwindcss"].setup({
           on_attach = on_attach,
           capabilities = capabilities,
         })
