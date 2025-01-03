@@ -8,5 +8,10 @@ return {
       "<cmd>Trouble diagnostics toggle<cr>",
       desc = "Diagnostics (Trouble)",
     },
+    {
+      "<leader>xt",
+      "<cmd>Trouble todo<cr>",
+      desc = "Todo (Trouble)",
+    },
   },
 }
