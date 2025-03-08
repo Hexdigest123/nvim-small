@@ -14,17 +14,35 @@ return {
 
 		require("mason-tool-installer").setup({
 			ensure_installed = {
-				"ts_ls",
+				"typescript-language-server",
 				"gopls",
 				"dockerls",
-				"svelte",
-				"tailwindcss",
+				"svelte-language-server",
+				"tailwindcss-language-server",
 				"jdtls",
 				"texlab",
 				"intelephense",
 				"clangd",
 				"pyright",
-				"lua_ls",
+				"lua-language-server",
+
+				-- Formatters
+				"prettierd",
+				"stylua",
+				"black",
+				"clang-format",
+				"pretty-php",
+				"rustfmt",
+				"goimports",
+
+				-- Linters
+				"pylint",
+				"phpcs",
+				"trivy",
+
+				-- Debuggers
+				"codelldb",
+				"debugpy",
 			},
 		})
 	end,
